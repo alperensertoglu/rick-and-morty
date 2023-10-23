@@ -1,0 +1,86 @@
+$wid: 100vw;
+
+.App {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.article {
+    background-color: #202329;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    height: 220px;
+    overflow: hidden;
+    background: #3c3e44;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+
+}
+
+
+.img-div {
+    padding: 0;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+
+}
+
+.info {
+    flex: 3 1 0%;
+    position: relative;
+    padding: 0.750rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.charName {
+    color: white;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-gray {
+    color: rgb(158, 158, 158);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+h2 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.circle {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+
+}
